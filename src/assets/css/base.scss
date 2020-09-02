@@ -1,0 +1,19 @@
+@import "./reset.scss";
+@import "./variable.scss";
+@import "./mixin.scss";
+
+html, body{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  // 解决iscroll拖拽卡顿
+  touch-action: none;
+}
+body{
+  @include font_size($font_medium);
+  //font-size: 50px;
+  font-family: Helvetica,sans-serif,STHeiTi;
+}
+img{
+  vertical-align: bottom;
+}
