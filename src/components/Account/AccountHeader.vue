@@ -16,6 +16,11 @@ export default {
   components: {
     Header
   },
+  data () {
+    return {
+      switchNum: 0
+    }
+  },
   methods: {
     back () {
       window.history.back()
